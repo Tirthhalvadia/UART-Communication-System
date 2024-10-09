@@ -1,9 +1,9 @@
 # UART Communication System
 
 ## Description
-This project implements a complete UART (Universal Asynchronous Receiver-Transmitter) communication system in Verilog. The system is designed to support configurable baud rates and data widths, and includes separate modules for the transmitter (PISO), receiver (SIPO), baud rate generation, and an optional top-level integration module.
+This project implements a complete UART (Universal Asynchronous Receiver-Transmitter) communication system in Verilog. The system is designed to support configurable baud rates and data widths. It includes separate modules for the transmitter (PISO), receiver (SIPO), baud rate generation, and an optional top-level integration module.
 
-The project was developed using Xilinx Vivado and includes testbenches for the PISO and SIPO modules. The design has been verified through simulation, but FPGA implementation and synthesis are still pending.
+The project was developed using Xilinx Vivado and includes testbenches for the PISO and SIPO modules. The design has been verified through simulation.
 
 ## Features
 - **Configurable Baud Rate**: Default 9600 baud with a 50 MHz clock frequency.
@@ -26,11 +26,7 @@ The project was developed using Xilinx Vivado and includes testbenches for the P
 - **`uart_sipo_tb`**: Verifies the SIPO module.
 
 ## Tools Used
-- **Xilinx Vivado**: Design and simulation was done using Xilinx Vivado.
-
-## Next Steps
-- **FPGA Implementation**: Synthesize the design and implement it on an FPGA.
-- **Synthesis and Timing Analysis**: Analyze the design's timing and ensure correct operation on hardware.
+- **Xilinx Vivado**: Design and simulation were done using Xilinx Vivado.
 
 ## How to Use
 1. Clone or download the repository.
